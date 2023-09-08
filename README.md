@@ -52,4 +52,6 @@ Start the server
 ```
 
 ## Demo
+
 https://quizh-app.vercel.app/
+https://quiz-app-redux.vercel.app/
