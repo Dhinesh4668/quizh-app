@@ -19,8 +19,7 @@ const Home = () => {
       toast.error("Please enter your email address");
       return;
     }
-    const mailformat =
-      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    const mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (!email.match(mailformat)) {
       toast.warn("Please enter a valid email address");
       return;
